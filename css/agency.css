@@ -1,0 +1,1324 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    overflow-x: hidden;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+/*service的字型設定*/
+
+
+.text-muted {
+    color: #777;
+	/*color: #000;*/
+}
+/*圓圈的底色*/
+.text-primary {
+    /*
+	color: #fed136;
+	color: #4696e5;
+	*/
+	color: #fed136;
+}
+/*標題下的解說*/
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #000000;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fec503;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-weight: 700;
+}
+
+/*設定h2的字距*/
+h2{
+	letter-spacing: 0.1em;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-white-gray {
+    background-color: #fff;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+/*download 裡的button設定*/
+.btn-info{
+	text-transform: uppercase;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-weight: 700;
+    color: #000000;
+	border-color: #fed136;
+	border-width: 2px;
+    background-color: #fed136;
+
+}
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info{
+    color: #000;
+	/*
+	border-color: #f6bf01;
+    background-color: #fec503;
+	*/
+	border-color: #f6bf01;
+	border-width: 2px;
+    background-color: #fec503;
+}
+
+
+/*PORTFOLIO裡每個圖片進去裡面的close button 初始設定*/
+.btn-primary {
+    text-transform: uppercase;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-weight: 700;
+    color: #fff;
+	border-color: #222;
+    background-color: #222;
+    font-size: 25px;
+	 /*border-color: #fed136;
+    background-color: #fed136;*/
+}
+/*PORTFOLIO裡每個圖片進去裡面的close button的滑鼠設定*/
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+	border-color: #000;
+    background-color: #000;
+	/*
+	border-color: #f6bf01;
+    background-color: #fec503;
+
+	border-color: #5ca3e8;
+    background-color: #3089e2;
+	*/
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.btn-primary .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+/*submit的內容設定*/
+.btn-success {
+	
+	padding: 20px 40px;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    background-color: #fed136;
+	/*
+	padding: 20px 40px;
+    border-color: #222;
+    border-radius: 10px;
+	border-width: 3px;
+    text-transform: uppercase;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222;
+    background-color: transparent;
+	*/
+}
+/*submit的滑鼠事件 框的顏色 字的顏色 moveon的顏色*/
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+
+	border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+	/*
+	border-color: transparent;
+    color: #fff;
+    background-color: #3089e2;
+	*/
+}
+
+.btn-success:active,
+.btn-success.active,
+.open .dropdown-toggle.btn-success {
+    background-image: none;
+}
+
+/*tell me more & send mail的內容設定*/
+.btn-xl {
+/*
+    padding: 20px 40px;
+    border-color: #fed136;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #fed136;
+*/
+	padding: 20px 40px;
+    border-color:  #fff;
+    border-radius: 5px;
+	border-width: 1px;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color:  #FF5511;
+    float:left;
+    /*margin-left: auto;*/
+    margin-bottom: 50px;
+}
+/*tell me more的滑鼠事件 框的顏色 字的顏色 moveon的顏色*/
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+	/*
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+	*/
+	border-color: #fff ;
+	border-radius: 5px;
+    color: #fff;
+	font-size:20px;
+	padding: 20px 10px;
+    background-color: #E63F00 ;
+
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.btn-xl .badge {
+    color: #fed136;
+    background-color: #000;
+}
+
+@media(max-width:448px) {
+	.btn-xl {
+    font-size: 20px;
+	}
+
+}
+
+
+
+/*縮小版面後排版的navbar*/
+/*narbar初始顏色*/
+.navbar-default {
+
+    border-color: transparent;
+    background-color: #222;
+	/*
+	border-color: transparent;
+    background-color: transparent;
+	*/
+}
+
+/*narbar的字型顏色*/
+.navbar-default .navbar-brand {
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+	/*
+    color: #fed136;
+	*/
+	color: #fff;
+	font-size:20px;
+}
+
+/*narbar滑鼠移動的字型 顏色*/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    /*color: #fec503;font-size:30px;*/
+	color:#fec503;
+	font-size:30px;
+}
+
+/*narbar 右上角的點選後的bar底線色*/
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+/*narbar右上角的選單顏色*/
+.navbar-default .navbar-toggle {
+
+    border-color: #fed136;
+    background-color: #fed136;
+	/*
+	border-width: 2px;
+	border-color: #fed136;
+    background-color: transparent;
+	*/
+}
+
+/*narbar右上角的選單內的線顏色*/
+.navbar-default .navbar-toggle .icon-bar {
+    /*background-color: #fed136*/
+	background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    /*background-color: #000;*/
+	background-color: transparent;
+	border-color: #000;
+
+}
+
+
+/*navbar上的字體*/
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #fff;
+	font-size:17px;
+}
+/*滑鼠移到navbar上的變化*/
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fed136;
+}
+/*下拉時navbar會自動追蹤位置的bar*/
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #fff;
+    background-color: #fed136;
+	/*
+	outline: #fed136 solid 3px;
+	border-radius: 5px;
+    color: #fff;
+    background-color:  transparent;
+	*/
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+	/*
+    color: #fff;
+    background-color: #fec503;
+	*/
+	color: #000;
+    background-color: #fec503;
+	border-color: #fff;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        padding: 25px 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2.2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+		font-weight: bold;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 3px;
+    }
+
+    .navbar-default.navbar-shrink {
+        padding: 10px 0;
+        background-color: #222;
+    }
+	/*左上角LOGO的大小*/
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 2.0em;
+
+    }
+}
+
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(/images/frontend/slide-0.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 26px;
+    font-style: italic;
+    line-height: 22px;
+	color:#fff;
+	font-weight:bold;
+}
+
+header .intro-text .intro-heading a{
+    margin-bottom: 25px;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 20px;
+	color:#fff;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 266px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 35px;
+        font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+        font-size: 43px;
+        font-style: italic;
+        line-height: 40px;
+		color:#fff;
+        text-align:left;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+        font-size: 25px;
+		/*font-style: italic;
+        font-weight: 700;*/
+        font-family:Microsoft JhengHei;
+        line-height: 40px;
+		color:#fff;
+		text-align:left;
+    }
+}
+
+section {
+    padding: 100px 0;
+}
+
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.freeapponstore{
+	background-image: url(/images/frontend/free_bg01.png);
+	background-attachment: scroll;
+	background-position: center center;
+}
+.freeapponstore .container img{
+	position: relative;
+	margin-top:0;
+	width:95%;
+	height:95%;
+}
+/*free on store table*/
+.freeapponstore .container .table-bordered{
+	text-align: center;
+	font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+	font-style: normal;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top:50px;
+}
+.freeapponstore .container .table-bordered tr{
+	
+}
+.freeapponstore .container .table-bordered td{
+	width:200px;
+	padding:20px;
+	background-color:#fff;
+}
+.freeapponstore .container .table-bordered #freeonstoresystem{
+	background-color : #E8E8E8;
+}
+.freeapponstore .container .table-bordered #freeonstoretime{
+
+}
+.freeapponstore .container .table-bordered #freeonstorecost{
+	
+}
+.freeapponstore .container .table-bordered #freeiOS{
+	color:#fff;
+	background-color:#0066ff;
+}
+.freeapponstore .container .table-bordered #freeAndroid{
+	color:#fff;
+	background-color:#33CC00;
+}
+.freeapponstore .container .table-bordered #free{
+	color:#FF0000;
+}
+
+.freeapponstore .container #note{
+	text-align:center;
+}
+.freeapponstore .container #linkme {
+	position: relative;
+	text-align: center;
+}
+.freeapponstore .container #linkme a{
+
+}
+
+@media(min-width:768px) {
+    section {
+        padding: 150px 0;
+    }
+	
+}
+@media(max-width:440px) {
+	.freeapponstore .container .table-bordered td{
+		padding:5px;
+		font-size: 14px;
+	}
+	.freeapponstore .container #note h3{
+		font-size: 10px;
+	}
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+
+}
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+/*portfolio滑鼠移過去顯示的圖案內容*/
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    /*background: rgba(254,209,54,.9); background: rgba(48,137,226,.9);*/
+	background: rgba(254,209,54,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+/*portfolio滑鼠移過去顯示的圖案內容*/
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+
+/*Download部分*/
+
+#download{
+	width:100%;
+	padding: 60px 0;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+#download h2.section-heading {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+#download  h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight:bold;
+}
+
+#download .certification{
+	margin:0 auto;
+	background-position: center;
+    background-repeat: no-repeat;
+	background-image: url(/images/frontend/certification.jpg);
+}
+
+
+.download_btn {
+	margin-left:20px;
+	margin-top:-90px;
+	text-align: center;
+
+}
+.download_btn .btn {
+	width: 240px;
+	font-size: 20px;
+	padding: 16px 30px 16px 70px;
+	position: relative;
+	font-weight:bold;
+}
+.download_btn .btn .glyphicon  {
+	position: absolute;
+	top: 41%;
+	margin-left: -45px;
+}
+
+
+@media (max-width: 991px) {
+	#download h2.section-heading {
+
+	}
+	#download  h3.section-subheading {
+		margin-bottom:-70px
+	}
+	#download .certification{
+
+	}
+	.download_btn {
+		padding-bottom:50px;
+		margin-top:-70px;
+		margin-bottom:30px;
+		margin-left:10px;
+	}
+	.download_btn .btn {
+		width: 180px;
+		font-size: 12px;
+	}
+}
+
+
+@media (max-width: 767px) {
+	#download h2.section-heading {
+		margin-top: 0px;
+	}
+	#download  h3.section-subheading {
+		margin-bottom:-30px
+	}
+
+	#download .certification{
+		height:auto;
+	}
+
+	.download_btn {
+		padding-top:10px;
+		padding-bottom:30px;
+	}
+	.download_btn .btn {
+		width: 160px;
+		font-size: 12px;
+	}
+}
+
+@media (min-width: 1200px){
+	.download_btn {
+		padding-left:100px;
+	}
+}
+
+
+/*
+#download #qrscanner{
+	margin-bottom:30px;
+	margin-left: 30px;
+}
+
+#download #certification{
+	margin-left:30px;
+}
+*/
+#download #qrscanner .btn {
+	width: 240px;
+	font-size: 20px;
+	padding: 16px 30px 16px 70px;
+	position: relative;
+	font-weight:bold;
+	z-index:2;
+}
+#download #qrscanner .btn .glyphicon  {
+	position: absolute;
+	top: 41%;
+	margin-left: -45px;
+	z-index:2;
+}
+
+#download #certification .btn {
+	width: 240px;
+	font-size: 20px;
+	padding: 16px 30px 16px 70px;
+	position: relative;
+	font-weight:bold;
+	z-index:2;
+}
+
+#download #certification .btn .glyphicon  {
+	position: absolute;
+	top: 41%;
+	margin-left: -45px;
+	z-index:2;
+}
+
+@media(max-width:768px) {
+
+	#download{
+		padding: 70px 0;
+		margin-bottom: -70px;
+	}
+	#download  .btn {
+		width: 200px;
+	}
+
+	#download .certification{
+		margin-top:0px;
+	}
+
+	#download .certification #qrscanner {
+		padding: 0 auto;
+		margin: 10px;
+		margin-top: 30px;
+	}
+
+	#download .certification #certification {
+		margin:10px;
+		padding:0 auto;
+	}
+}
+
+@media(min-width:992px) {
+	#download{
+		padding: 80px 0;
+		margin-bottom: 20px;
+	}
+	#download .certification{
+		margin-top:0px;
+	}
+	#download .certification #qrscanner {
+		padding: 0 auto;
+		margin-left: 0px;
+		margin-top: -30px;
+
+	}
+	#download .certification #certification {
+		padding: 0 auto;
+		margin-left: 10px;
+		margin-top: -30px;
+	}
+}
+
+@media(min-width:1200px) {
+	#download{
+		padding: 80px 0;
+		margin-bottom: 20px;
+	}
+	#download .certification{
+		margin-top:0px;
+	}
+	#download .certification #qrscanner {
+		padding: 0 auto;
+		margin-left: 20px;
+		margin-top: -30px;
+
+	}
+
+	#download .certification #certification {
+		padding: 0 auto;
+		margin-left: 0px;
+		margin-top: -30px;
+
+	}
+}
+
+
+/*Contact部分*/
+
+#formJoin label.error {
+    font-size: 0.8em;
+    color: #F00;
+    font-weight: bold;
+    display: block;
+
+}
+#formJoin label.valid {
+	font-size: 0.8em;
+	color:#00FF00;
+	font-weight: bold;
+    display: block;
+}
+#formJoin  input.error, #formJoin select.error  {
+  background: #FFA9B8;
+  border: 1px solid red;
+}
+
+section#contact {
+    /*background-color: #222;*/
+	background-color: #f7f7f7;
+    background-image: url(../img/);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#contact .section-heading {
+    color: #222;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group select,
+section#contact .form-group textarea{
+    padding: 20px;
+	border: 1px solid rgb(153, 153, 153);
+}
+
+section#contact .form-group .form_small{
+	display: block;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    line-height: 1.75;
+    text-transform: uppercase;
+}
+
+section#contact .form-group input.form-control,
+section#contact .form-group select.form-control {
+    height: 65px;
+}
+
+section#contact .form-group label.inputTitle{
+	font-size:16px;
+	color:#222;
+}
+
+section#contact .form-group fieldset.form-control{
+    height: auto;
+}
+/*
+section#contact .form-group fieldset.form-control #icon_preview{
+    font-size: 25px;
+	border: none;
+	text-align: center;
+	text-transform: uppercase;
+	background: #FFF;
+    color: #000;
+    padding: 10px ;
+    border-radius: 5px;
+    margin: 0 auto;
+	position:relative;
+
+}
+*/
+section#contact .form-group fieldset.form-control img#ios_img{
+    width: 100%;
+	margin: 0 auto;
+	position:relative;
+	z-index:1px;
+}
+
+section#contact .form-group fieldset.form-control img#image{
+    position:absolute;
+	text-align: left;
+	width:90px;
+	height:90px;
+	top: 200px;
+	left:80px;
+	z-index:2;
+	color:#FFFFFF;
+	border: 2px ;
+    border-radius: 15px;
+}
+
+section#contact .form-group fieldset.form-control #icon_name{
+	font-size: 14px;
+	position:absolute;
+	text-align:center;
+	color:#FFFFFF;
+	width: 110px;
+	left:70px;
+	top: 290px;
+	z-index:2;
+}
+section#contact .form-group fieldset.form-control #voice_name{
+	text-align:center;
+	width:100%;
+	position:relative;
+}
+section#contact .form-group fieldset.form-control #audio{
+	width:auto;
+	text-align:center;
+	position:relative;
+
+}
+
+section#contact .errDiv{
+	width:300px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+	position: relative;
+	text-align: left;
+	color: #ff0000;
+}
+
+@media(max-width:414px){
+	section#contact .form-group fieldset.form-control img#image{
+		margin-left:-20px;
+		top: 140px;
+		width:60px;
+		height:60px;
+	}
+	section#contact .form-group fieldset.form-control #icon_name{
+		margin-left:-35px;
+		top: 200px;
+		font-size: 12px;
+	}
+}
+
+@media(max-width:750px){
+    .btn-xl {
+    	padding: 18px 12px;
+        border-color:  #fff;
+        border-radius: 5px;
+    	border-width: 1px;
+        font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+        font-size: 15px;
+        color: #fff;
+        background-color:  #FF5511;
+        margin-bottom: 50px;
+        position:relative;
+        width: 57.5%;
+        float:right;
+        right:21%;
+        text-align: center;
+    }
+}
+
+@media(min-width:768px) {
+	section#contact .form-group fieldset.form-control img#image{
+		margin-left:20px;
+		top: 240px;
+	}
+	section#contact .form-group fieldset.form-control #icon_name{
+		margin-left:20px;
+		top: 330px;
+	}
+}
+@media(min-width:992px) {
+	section#contact .form-group fieldset.form-control img#image{
+		top: 170px;
+		margin-left:0px;
+	}
+	section#contact .form-group fieldset.form-control #icon_name{
+		top: 260px;
+		margin-left:0px;
+	}
+}
+@media(min-width:1200px) {
+	section#contact .form-group fieldset.form-control img#image{
+		top: 200px;
+	}
+	section#contact .form-group fieldset.form-control #icon_name{
+		top: 290px;
+	}
+}
+
+
+/*
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+*/
+section#contact .form-group select{
+	text-transform: uppercase;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+/*點選表格是框框的外圍顏色*/
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+section#contact .success{
+	width:auto;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	color: #ff0000;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+/*portfolio圖片點進去顯示的畫面*/
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+	text-align: center;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+.portfolio-modal .container .panel-group{
+	font-size: 16px;
+    text-align: left;
+	
+}
+
+.portfolio-modal .container .disclaimer-group{
+	font-size: 16px;
+    text-align: left;
+	
+}
+
+.portfolio-modal .container .panel-group #red{
+    color: #ff0000;
+	
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+::selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #fed136;
+}
