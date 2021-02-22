@@ -1,0 +1,183 @@
+body{
+	font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+}
+h3 {
+  margin: 15px;
+  letter-spacing: 0.1em;
+}
+.page-header{
+	text-align: center;
+	background-color: transparent;
+}
+.row {
+	text-align: center;
+	background-color: transparent;
+	/*margin-bottom: 10px;*/
+}
+.row .row .click_bt{
+	margin-top:10px;
+}
+
+.row .iconcheckbt{
+	margin-top:20px;
+}
+
+.row .row .description{
+	text-align:left;
+}
+
+.row .row .thumbnail img{
+	/*
+	width:225px;
+	height:225px;
+	margin-left:30px;
+	*/
+	
+}
+
+.row #i6_preview img{
+	width:290px;
+	height:580px;
+	margin: 0;
+	margin-bottom:10px;
+}
+
+/*icon preview*/
+.row #i6_icon_preview{
+	height:420px;
+}
+
+.row #i6_icon_preview img{
+	width:380px;
+	position:relative;
+	margin: 0;
+}
+
+.row #i6_icon_preview #icon{
+	width:120px;
+	text-align: left;
+	position:absolute;
+	top: 250px;
+	left:39%;
+	color:#FFFFFF;
+	border: 2px solid rgba(86,61,124,.2);
+	z-index:2px;
+}
+
+/*ad preview*/
+
+.row #update_area{
+	height:420px;
+}
+
+.row #update_area p{
+	color:#C0C0C0 ;
+	font-size:10px;
+}
+
+.row #i6_ad_preview img{
+	width:400px;
+	position:relative;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 300px;
+  position:absolute;
+  width:350px;
+  left:14%;
+  top:75px
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 300px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+[class*="col-"] {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: #fff;
+  /*background-color: rgba(86,61,124,.15);*/
+  border: 1px solid #ddd;
+  border: 1px solid rgba(86,61,124,.2);
+}
+
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.page-footer{
+	text-align: center;
+	background-color: transparent;
+	padding-bottom:20px;
+}
+
+.page-footer .btn-success{
+	padding: 20px 40px;
+    border-color: #fed136;
+    border-radius: 3px;
+    font-family: "segoe UI", "ヒラギノ丸ゴ ProN W4", "Hiragino Maru Gothic ProN", Meiryo, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+	color: #000;
+    background-color: #fed136;
+}
+
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .page-header,
+  .page-footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+}
+
+@media(max-width:414px) {
+	/*icon preview*/
+	.row #i6_icon_preview img{
+		width:280px;
+	}
+	.row #i6_icon_preview #icon{
+		width:100px;
+		top: 200px;
+		left:35%;
+	}
+	
+	/*ad preview*/
+	.row #i6_ad_preview img{
+		width:280px;
+	}
+	
+	.carousel {
+		width:242px;
+		height:210px;
+		left:12%;
+		top:74px
+	}
+	/* Since positioning the image, we need to help out the caption */
+	.carousel-caption {
+		z-index: 10;
+	}
+
+	/* Declare heights because of positioning of img element */
+	.carousel .item {
+		height: 210px;
+		background-color: #777;
+	}
+}

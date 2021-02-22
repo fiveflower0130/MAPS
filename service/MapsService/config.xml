@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>properties file</comment>
+
+	<entry key="mode.debug">no</entry>
+	<!--3A url -->
+
+	<entry key="portal.address">https://maps.x1apps.com</entry>
+	
+	<entry key="services.provisionPool.path">/home/foxconn/maps_nfs/custom_apps/data_source/provision/using/</entry>
+	
+	<entry key="services.provision.password">Foxconn88</entry>
+	
+	<entry key="mysql.address">jdbc:mysql://maps_database:3306/Notification Pusher</entry>
+	
+	<entry key="mysql.user">root</entry>
+	
+	<entry key="mysql.password">1qazplmm</entry>
+	
+</properties>
